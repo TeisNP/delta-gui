@@ -1,0 +1,12 @@
+name: delta-gui
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip=22.1.1
+  - pip:
+    - pysimplegui
+    - deltalake
+    - environs
+    - dataclasses_json
+    - pyarrow
